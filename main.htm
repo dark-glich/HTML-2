@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DECLARATION FORM 9 A</title>
+		<meta charset="utf-8">
+		<meta name="discription" content="declaration form">
+		<style>
+			pre.header{
+				background-color:white;
+				margin: auto;
+				border:1px solid #d9d9d9;
+				border-top: 10px solid #673AB7;
+				border-radius:10px;
+				padding:5px;
+				margin-top: 10px;
+				height:95px;
+				width:630px;
+				font-size:32px;
+				font-family:"Google Sans";
+			}
+
+			pre.sub{
+				background-color:white;
+				margin: auto;
+				border:1px solid #d9d9d9;
+				border-radius:10px;
+				padding:5px;
+				margin-top: 10px;
+				height:150px;
+				width:630px;
+				font-size:17px;
+				font-family:"Google Sans";
+			}
+
+			pre.name{
+				background-color:white;
+				margin: auto;
+				border:1px solid #d9d9d9;
+				border-radius:10px;
+				margin-top: 10px;
+				padding:5px;
+				height:130px;
+				width:630px;
+				font-size:16px;
+				font-family:"Google Sans";
+			}
+
+			pre.Admission{
+				background-color:white;
+				margin: auto;
+				border:1px solid #d9d9d9;
+				border-radius:10px;
+				margin-top: 10px;
+				padding:5px;
+				height:150px;
+				width:630px;
+				font-size:17px;
+				font-family:"Google Sans";
+			}
+
+			select{
+				background-color:white;
+				border:1px solid #d9d9d9;
+				border-radius:5px;
+				padding:5px;
+				height:49px;
+				width:175px;
+				color:#808080;
+			}
+
+			input.text{
+				width:270px;
+				border-bottom: 1px solid #d9d9d9;
+				border-top:0px solid black;
+				border-right:0px solid black;
+				border-left:0px solid black;
+				-webkit-transition: 0.5s;
+  				transition: 0.5s;
+  				font-family:"Google Sans"
+  				font-size:17px;
+			}
+			
+
+			input.text:focus {
+  				border-bottom: 2.5px solid #673AB7;
+				outline:none;
+			}
+
+			.container {
+				  display: block;
+				  position: relative;
+				  padding-left: 50px;
+				  cursor: pointer;
+				  font-size: 14px;
+				  -webkit-user-select: none;
+				  -moz-user-select: none;
+				  -ms-user-select: none;
+				  user-select: none;
+				  margin-bottom: -22px;
+				}
+
+			.container input {
+			  position: absolute;
+			  opacity: 0;
+			  cursor: pointer;
+			}
+
+			.checkmark {
+			  position: absolute;
+			  top:-2px;
+			  left: 20px;
+			  height: 14px;
+			  width: 14px;
+			  background-color: white;
+			  border-radius: 50%;
+			  border:2.5px solid #666666;
+
+			}
+
+			.container:hover input ~ .checkmark {
+			  background-color: #ccc;
+			}
+
+
+			.container input:checked ~ .checkmark {
+			  background-color: white;
+			  border:2.5px solid #673AB7;
+			}
+
+			.checkmark:after {
+			  content: "";
+			  position: absolute;
+			  display: none;
+			}
+
+			.container input:checked ~ .checkmark:after {
+			  display: block;
+			}
+
+			.container .checkmark:after {
+			 	top: 3px;
+				left: 3.5px;
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background:#673AB7;
+			}
+
+			a.button:link, a.button:visited{
+			  background-color: #673AB7;
+			  color: white;
+			  padding: 7px 22px;
+			  text-align: center;
+			  border-radius:5px;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-family:"Google Sans"
+			}
+
+			a.button:hover{
+				background-color:#794ec7;
+			}
+
+			a.dev:link, a.dev:visited{
+				color:black;
+				font-family:"Google Sans";
+				font-size:12.5px;
+				color:#5e5e5e;
+			}
+
+			option{color: black;}
+			sup{color:red;}
+			sup.req{
+				font-size:14.5px;
+			}
+
+			pre.a{
+				font-family:"Google Sans";
+				font-size:12.5px;
+				color:#5e5e5e;
+			}
+			pre.logo{
+				font-family:"Google Sans";
+				font-size:30px;
+				color:#9c9c9c;
+			}
+
+		</style>
+	</head>
+	<body style="background-color:#f0ebf8">
+
+		<!--class and section-->
+
+		<pre class="header">   DECLARATION  FORM  9 A 
+   <sup class="req">* Required</sup>  </pre>
+
+
+		<pre class="sub">
+
+     Class........... Section........<sup>*</sup>
+
+    <select>
+    	<option value="" selected disabled hidden>Choose</option>
+    	<option>9A</option>
+    </select>
+
+    <!-- name -->
+
+	</pre>
+
+	<pre class="name">
+
+     Student's full name <sup>*</sup>
+
+
+     <input class="text" type="text" placeholder="Your answer"></pre>
+
+     <!-- addmission no. -->
+
+     <pre class="name" style="height:130px;">
+
+     Admission No. <sup>*</sup>
+
+
+     <input class="text" style="width:130px;"type="text" placeholder="Your answer" ></pre>
+
+
+     <!-- mothers name -->
+
+     <pre class="name" style="height:130px;">
+
+     Mother's name <sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- fathers name -->
+
+     <pre class="name" style="height:130px;">
+
+     Father's name <sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     
+     <!-- Full Address -->
+
+     <pre class="name" style="height:130px;">
+
+     Full Address <sup>*</sup>
+
+
+     <input class="text" style="width:580px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Contact No. -->
+
+     <pre class="name" style="height:130px;">
+
+     Contact No. <sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <pre class="name" style="height:230px;">
+
+     House Colour <sup>*</sup>
+
+     <label class="container">Blue<input type="radio" name="house"><span class="checkmark"></span></label>
+	 <label class="container">Green<input type="radio" name="house"><span class="checkmark"></span></label>
+	 <label class="container">Red<input type="radio" name="house"><span class="checkmark"></span></label>
+     <label class="container">Yellow<input type="radio" name="house"><span class="checkmark"></span></label>
+
+	</pre>
+
+	<!-- Height (in c.m) -->
+
+	<pre class="name" style="height:130px;">
+
+     Height (in c.m) <sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Weight (in k.g) -->
+
+     <pre class="name" style="height:130px;">
+
+     Weight (in k.g) <sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Dental hygiene -->
+
+     <pre class="name" style="height:130px;">
+
+     Dental hygiene<sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Blood Group -->
+
+     <pre class="name" style="height:130px;">
+
+     Blood Group<sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Vision (left) -->
+
+     <pre class="name" style="height:130px;">
+
+     Vision (left)<sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <!-- Vision (Right) -->
+
+     <pre class="name" style="height:130px;">
+
+     Vision (Right)<sup>*</sup>
+
+
+     <input class="text" style="width:270px;"type="text" placeholder="Your answer" ></pre>
+
+     <pre class="submit">                                        <a class="button" href="">Submit</a>
+     </pre>
+     <pre class="a" >	   	 		                               					  	    Never submit passwords through Google Forms.</pre>
+
+     <pre class="a">		   	 		                               					  	           This content is neither created nor endorsed by Google. <a class="dev"href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeiWCywZwtioL7B75XoYJhtyLH2s1nrIh5HaIE5cCP5ApB_IQ/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSeiWCywZwtioL7B75XoYJhtyLH2s1nrIh5HaIE5cCP5ApB_IQ/viewform" target="blank">Report Abuse</a> - <a class="dev"href="https://policies.google.com/terms" target="blank">Terms of Service</a> - <a class="dev"href="https://policies.google.com/privacy" target="blank">Privacy Policy</a></pre>
+     <pre class="logo">											<b>B</b>ilal</pre>
+
+	</body>
+</html>
+
+
+	
